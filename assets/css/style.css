@@ -327,15 +327,27 @@ input[type="range"] {
 }
 
 @media screen and (max-width: 568px) {
+  .main {
+    overflow-y: auto;
+  }
   .container {
     justify-content: flex-start !important;
-    height: 96vh !important;
+    height: 90vh !important;
   }
+
   .container h2 {
     font-size: 20px !important;
   }
+
+  .content {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
   .wrapControl {
     margin: 28px auto 0 !important;
+  }
+  .resultArticle {
+    height: 30vh !important;
   }
 
   .wrapControl > .controlChange {
