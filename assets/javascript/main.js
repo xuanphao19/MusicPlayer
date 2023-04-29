@@ -94,7 +94,7 @@ $(window).on("load", function () {
   }, 0);
 });
 /* =============== End Translate ==================== */
-
+/* <![CDATA[ */
 const welcomeText = select("#welcome"),
   wrapControl = select(".wrapControl"),
   clearScreen = select(".clearScreen"),
@@ -243,3 +243,4 @@ clearScreen.onclick = () => {
     resultArticleEl.innerHTML = inputEl.value;
   }
 };
+/* ]]> */
